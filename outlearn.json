@@ -10,13 +10,15 @@
       "pages" : [
         {"page" : "./pages/welcome.md"},
         {"module" : "message-detail"},
+        {"module" : "message-response-detail"},
         {"page" : "./pages/closing.md"}
       ]
     }
   ],
 
   "modules" : [
-    {"olm" : "./modules/message-detail.md"}
+    {"olm" : "./modules/message-detail.md"},
+    {"olm" : "./modules/message-response-location.md"}
   ],
 
   "assets" : []

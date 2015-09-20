@@ -13,7 +13,7 @@
 
 <!-- @section -->
 
-##NEO base message structure
+##NEO Base 'Sender' Message Structure
 
 
 NEO's messages have a basic structure. so lets start with an example
