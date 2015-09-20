@@ -9,16 +9,14 @@
       "privacy" : "public",
       "pages" : [
         {"page" : "./pages/welcome.md"},
-        {"module" : "my-outleran-module"},
+        {"module" : "message-detail"},
         {"page" : "./pages/closing.md"}
       ]
     }
   ],
 
   "modules" : [
-    {
-    "olm" : "./modules/my-outlearn-module.md",
-    "omd" : "./modules/message-detail.md"}
+    {"olm" : "./modules/message-detail.md"}
   ],
 
   "assets" : []
