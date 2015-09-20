@@ -5,7 +5,7 @@
     {
       "name" : "NEO-Messages",
       "title" : "NEO Messages",
-      "description" : "",
+      "description" : "NEO Messages module description",
       "privacy" : "public",
       "pages" : [
         {"page" : "./pages/welcome.md"},
