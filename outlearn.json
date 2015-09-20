@@ -3,27 +3,21 @@
 
   "paths" : [
     {
-      "name" : "my-outlearn-path",
-      "title" : "My First Outlearn Path",
-      "description" : "Fastest Way to Publish a Path",
+      "name" : "NEO-Messages",
+      "title" : "NEO Messages",
+      "description" : "",
       "privacy" : "public",
       "pages" : [
         {"page" : "./pages/welcome.md"},
-        {"module" : "my-outlearn-module"},
+        {"module" : "message-detail"},
         {"page" : "./pages/closing.md"}
       ]
     }
   ],
 
   "modules" : [
-    {"olm" : "./modules/my-outlearn-module.md"}
+    {"md" : "./modules/message-detail.md"}
   ],
 
-  "assets" : [
-    {
-      "name" : "stream",
-      "contentType" : "image/jpeg",
-      "location" : "assets/stream.jpg"
-    }
-  ]
+  "assets" : []
 }
