@@ -123,7 +123,6 @@ An example of the context is
 
 
 ```code
-
 {
     "context": {
         "appId": "f5a0c9c3-56e0-49c5-8db5-856d5bd7e61e",
@@ -132,9 +131,7 @@ An example of the context is
         "userId": "2f95b6f9-43a9-4fd5-d2a1-e0055e8b7f88",
         "businessAction": "createNewDocument"
     }
-
 }
-
 ```
 
 
@@ -161,9 +158,7 @@ An example of Context is:
         "operation": "createAsset",
         "xDatanodeCollectionId": "ddbf838b-9a17-454f-9cc3-a4bf38a13d64"
     }
-
 }
-
 ```
 
 this section contains
@@ -179,7 +174,6 @@ this section contains
 this section contains system information and anything extra required. in the example we are only sending system information like asset type that we are creating and what is the parent id that we are going to be creating the asset under.
 
 ```code
-
 {
     "metadata": {
         "system": {
@@ -188,6 +182,5 @@ this section contains system information and anything extra required. in the exa
         }
     }
 }
-
 ```
 

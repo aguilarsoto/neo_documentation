@@ -20,7 +20,6 @@ In case your Asset request is successful you will receive a response that looks 
 
 
 ```code
-
 {
     "message": {
         "context": {
@@ -95,16 +94,13 @@ this response is also wrapped in a message object and consists in 4 parts: Heade
 The header section of the message it gets cut into just containing the message Version, the type and the timestamp, more use for validation.
 
 ```code
-
 {
     "header": {
         "messageVersion": "1.1",
         "messageType": "getAssetLocationResponse",
         "messageTimestamp": "2015-09-20T05:25:15.197Z"
     }
-
 }
-
 ```
 
 
@@ -134,7 +130,6 @@ The context section is returned exactly as it was sent as a way to maintain stat
 The response section consists in two different sections, the status and the data.
 
 ```code
-
 {
     "response": {
         "data": {
@@ -179,7 +174,6 @@ The response section consists in two different sections, the status and the data
         }
     }
 }
-
 ```
 
 The status basically contains the http code and description of the status of the response since the actual status is always 200.
