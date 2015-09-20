@@ -1,6 +1,6 @@
 <!--
 {
-"name": "message-deatil",
+"name": "message-detail",
 "version" : "0.1",
 "title" : "Neo Message Detail",
 "description" : "This module cointain details of NEO Messages",

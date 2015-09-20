@@ -18,7 +18,7 @@
   "modules" : [
     {
     "olm" : "./modules/my-outlearn-module.md",
-    "md" : "./modules/message-detail.md"}
+    "omd" : "./modules/message-detail.md"}
   ],
 
   "assets" : []
